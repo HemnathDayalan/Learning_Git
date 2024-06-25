@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.login-pane,
+.form-pane {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-pane {
+  background-size: cover;
+  background-position: center;
+}
+
+.form-pane {
+  background-color: #fff;
+  padding: 20px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.brand,
+.company {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  /* text-align: center; */
+  /* padding: 10px; */
+  /* background-color: #f5f5f5; */
+  /* Flexbox approach for footer sizing */
+  /* display: flex; */
+  /* align-items: flex-end; Align footer content to bottom */
+  /* width: 100%; */
+  /* height: 10%; Maintain 10% height */
+  /* margin-top: 25%; */
+}
